@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Admin Dashboard | G-Sertifikasi </title>-->
+    <link rel="stylesheet" href="styleee.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">G-Sertifikasi</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Cetak Sertifikat</span>
+          </a>
+        </li>
+        <li>
+          <a href="/indexxxx.html">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Data Sertifikat</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Masukan data sertifikat</div>
+            <div class="box-topic"></div>
+            <form action="/indexxxx.html">
+              <label for="fname">Nama:</label><br>
+              <input type="text" id="fname" name="fname" value="Full Name"><br>
+              <label for="lname">Kelas:</label><br>
+              <input type="text" id="lname" name="lname" value="Class"><br><br>
+              <p><a href="indexxxx.html" target="_blank" rel="noopener noreferrer" class="NEXT">
+                NEXT
+            </a></p>
+            </form>
+          </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales">
+    <style>
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 9px;
+      }
+      
+      tr:nth-child(even){background-color: #f2f2f2}
+      </style>
+    <div style="overflow-x:auto;">
+      <table>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Kelas</th>
+          <th>Kopetensi Keahlian</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Ratika Zyran</td>
+          <td>X</td>
+          <td>SIJA</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Dicki Rakri</td>
+          <td>X</td>
+          <td>TM</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Hapis Anawibowo</td>
+          <td>X</td>
+          <td>TO</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Razendra Wicaksana</td>
+          <td>X</td>
+          <td>TM</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>jarendra Dirgantara</td>
+          <td>X</td>
+          <td>SIJA</td>
+        </tr>
+		</div>	
+	</div>
+</div>
+      </div>
+    </div>
+            <a href="#">
+              <!--<img src="images/sunglasses.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          </li>
+          <li>
+            <a href="#">
+               <!--<img src="images/jeans.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          </li>
+          <li>
+            <a href="#">
+             <!-- <img src="images/nike.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/scarves.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/blueBag.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          </li>
+          <li>
+            <a href="#">
+              <!--<img src="images/bag.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          <li>
+            <a href="#">
+              <!--<img src="images/addidas.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          
+
+            <a href="#">
+             <!--<img src="images/shirt.jpg" alt="">-->
+              <span class="product"></span>
+            </a>
+            <span class="price"></span>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
+
